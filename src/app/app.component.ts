@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ArturoCamacho';
+
+  menu(){
+    var sec = document.getElementById('sec');
+    sec.classList.toggle('active');
+
+    var nav = document.getElementById('navigation');
+    nav.classList.toggle('active');
+  }
 }

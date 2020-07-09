@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ArturoCamacho"
+    }
+  },
+  "defaultProject": "ArturoCamacho",
+  "cli": {
+    "analytics": false
+  }
 }
